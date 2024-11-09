@@ -1,0 +1,147 @@
+/* src/Weather.module.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+  background-image: url("../assets/weather_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+.title{
+    display: flex;
+    font-family: "Playwrite DE Grund", cursive;
+    /* border: 2px solid red; */
+    margin: 30px;
+    gap: 10px;
+}
+.title img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 6px;
+    background: transparent;
+}
+.title h1{
+    font-size: 36px;
+}
+.sectionContainer {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: transparent;
+}
+
+.sectionContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #00aaff;
+  border-radius: 10px;
+  width: 70%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.searchButton {
+  padding: 15px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+  background-color: #0088cc;
+}
+
+.infoContainer p {
+  color: red;
+  font-size: 14px;
+}
+
+.weatherInfo {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: transparent;
+}
+
+.weatherInfo:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 5px 0;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 18px;
+  gap: 10px;
+}
+
+
+h2 span {
+  font-weight: bold;
+  color: #0077cc;
+  margin-left: 10px; 
+}
+
+h3 {
+  color: #555;
+  font-size: 16px;
+/* border: 2px solid green; */
+display: flex;
+justify-content: center;
+}
+
+.latlon{
+  /* border: 2px solid red; */
+  font-size: 18px;
+  /* padding-top: 8px; */
+}
+
+
+
+.weatherIcon {
+  width: 30px; 
+  height: 30px; 
+   margin-left: 10px; 
+   background-color: #81c8eb; 
+  border-radius: 8px;
+ 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6); 
+}
+
